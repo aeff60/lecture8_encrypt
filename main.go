@@ -7,3 +7,7 @@ func Encrypt(text string, key string) string {
 	}
 	return string(data)
 }
+
+func decrypt_text(text string, key string) string {
+	return Encrypt(text, key)
+}
